@@ -1,3 +1,7 @@
+<Hero/>
+
+<Pricing>Test Pricing</Pricing>
+
 # mdx.do
 MDX Utilities &amp; API
 
