@@ -4,7 +4,8 @@
 # MDX.do
 </Hero>
 
-# mdx.do
+# mdx.do <Hero/>
+
 MDX Utilities &amp; API
 
 # GFM
