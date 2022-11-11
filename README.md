@@ -6,6 +6,8 @@
 
 # mdx.do <Hero/>
 
+<Hero title='MDX.do' description='Dynamic MDX APIs and Utilities' />
+
 MDX Utilities &amp; API
 
 # GFM
