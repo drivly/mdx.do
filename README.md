@@ -7,6 +7,8 @@ MDX Utilities &amp; API
 
 www.example.com, https://example.com, and contact@example.com.
 
+apis.do https://apis.do
+
 ## Footnote
 
 A note[^1]
