@@ -6,7 +6,7 @@
 
 # mdx.do <Hero/>
 
-<Hero title='MDX.do' description='Dynamic MDX APIs and Utilities' />
+<Hero title='MDX.do' description='Amazing & Dynamic MDX APIs and Utilities' />
 
 MDX Utilities &amp; API
 
