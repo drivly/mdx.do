@@ -4,7 +4,7 @@
 # MDX.do
 </Hero>
 
-# mdx.do <Hero/>
+# mdx.do <Hero>- Markdown with React</Hero>
 
 <Hero title='MDX.do' description='Amazing & Dynamic MDX APIs and Utilities' />
 
