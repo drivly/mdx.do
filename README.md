@@ -6,7 +6,7 @@ MDX is extremely powerful in that it has 4 integrated capabilities:
 - Executable Code - develop Javascript/Typescript functions to export
 - UI Components - design and render JSX/React Components
 
-
+## NPM Packages
 - [ ] [@mdx.do/admin](/admin) - MDX Search, Edit, & Preview Dashboard
 - [ ] [@mdx.do/ai](/ai) - AI Functions, Workflows, and Agents in MDX
 - [ ] [@mdx.do/api](/api) - Develop and Document APIs entirely in MDX
