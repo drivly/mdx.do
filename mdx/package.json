@@ -1,0 +1,76 @@
+{
+  "name": "@mdx.do/mdx",
+  "version": "0.1.0",
+  "description": "A powerful MDX processor that can compile, evaluate, and manipulate MDX content with support for frontmatter, components, and AST manipulation",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\" \"test/**/*.{ts,tsx}\"",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^3.0.0",
+    "remark-mdx": "^3.0.0",
+    "remark-mdx-frontmatter": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "unified": "^11.0.4",
+    "yaml": "^2.3.4",
+    "deepmerge": "^4.3.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@vitest/ui": "latest",
+    "typescript": "^5.3.3",
+    "vite": "latest",
+    "vitest": "latest",
+    "prettier": "^3.1.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivly/mdx.do.git"
+  },
+  "keywords": [
+    "mdx",
+    "markdown",
+    "react",
+    "compiler",
+    "frontmatter",
+    "ast",
+    "processor",
+    "jsx"
+  ],
+  "author": "Drivly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drivly/mdx.do/issues"
+  },
+  "homepage": "https://mdx.do",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
