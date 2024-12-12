@@ -12,6 +12,7 @@ MDX is extremely powerful in that it has 4 integrated capabilities:
 - [ ] [@mdx.do/api](/api) - Develop and Document APIs entirely in MDX
 - [ ] [@mdx.do/app](/app) - Develop CRUD-based Apps entirely in MDX 
 - [ ] [@mdx.do/db](/db) - MDX as Structured Data, Unstructured Content, Code, & UI
+- [ ] [@mdx.do/mdx](/mdx) - Manipulate, Compile & Evaluate MDX Content & Data
 - [ ] [@mdx.do/sdk](/sdk) - Develop NPM Packages & SDKs entirely with MDX
 - [ ] [@mdx.do/site](/site) - Develop Websites entirely with MDX
 - [ ] [@mdx.do/ui](/ui) - React Components and MDX Utilities
